@@ -1,14 +1,14 @@
 //
-//  snakeApp.swift
-//  snake
+//  checklistApp.swift
+//  checklist
 //
-//  Created by Andy Huang on 7/9/23.
+//  Created by Andy Huang on 7/16/23.
 //
 
 import SwiftUI
 
 @main
-struct snakeApp: App {
+struct checklistApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
