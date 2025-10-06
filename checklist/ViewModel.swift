@@ -5,23 +5,30 @@
 //  Created by Andy Huang on 7/30/23.
 //
 
-import Foundation
+import SwiftUI
 
 class ViewModel: ObservableObject {
-    // TODO: Add class attributes
+    @Published var description = ""
+    @Published var inProgressTasks: [String] = []
+    @Published var completedTasks: [String] = []
     
-    func add() -> Void {
-        // TODO: Implement
-        return
+    func addTask() {
+        guard !description.isEmpty else { return }
+        inProgressTasks.append(description)
+        description = ""
     }
     
-    func swapToInProgress(task: String) -> Void {
-        // TODO: Implement
+    func completeTask(_ task: String) {
+        if let index = inProgressTasks.firstIndex(of: task) {
+            inProgressTasks.remove(at: index)
+        }
+        completedTasks.append(task)
     }
     
-    func swapToComplete(task: String) -> Void {
-        // TODO: Implement
-        return
+    func uncompleteTask(_ task: String) {
+        if let index = completedTasks.firstIndex(of: task) {
+            completedTasks.remove(at: index)
+        }
+        inProgressTasks.append(task)
     }
 }
-    

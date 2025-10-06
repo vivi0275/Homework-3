@@ -21,6 +21,7 @@
 		979A407F2A63A7E700771947 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		979A40812A63A7E800771947 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		979A40842A63A7E800771947 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E57E3BD12E946FB400317CB2 /* Untitled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Untitled.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 				979A407D2A63A7E700771947 /* checklistApp.swift */,
 				979A407F2A63A7E700771947 /* ContentView.swift */,
 				9742B5B42A76194800318352 /* ViewModel.swift */,
+				E57E3BD12E946FB400317CB2 /* Untitled.swift */,
 				979A40812A63A7E800771947 /* Assets.xcassets */,
 				979A40832A63A7E800771947 /* Preview Content */,
 			);
